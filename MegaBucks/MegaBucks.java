@@ -1,15 +1,18 @@
 
 /**
- * Write a description of class MegaBucks here.
+ * This class gets users input of lottery numbers and creates a random lottery drawing which accounts the occurences of their choices 
+ as well as number of jackpot wins.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Misa Uvalic & Danielle Clymer)
+ * @version (January 11, 2018)
  */
+import java.util.Scanner;
+import java.util.Random;
+import java.util.arrayList;
 public class MegaBucks
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    ArrayList<Integer> patronNums = new ArrayList<Integer>();
+    ArrayList<Integer> WinningNums = new ArrayList<Integer>();
     /**
      * Constructor for objects of class MegaBucks
      */
